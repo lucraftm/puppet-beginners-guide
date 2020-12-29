@@ -1,4 +1,4 @@
 file { '/tmp/hello.txt':
   ensure  => present,
-  content => "Hello\n",
+  content => "Hello there\n",
 }
